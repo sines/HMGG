@@ -1,0 +1,22 @@
+{
+	"FileVersion" : 3,
+	
+	"FriendlyName" : "FakeLove Kinect Plugin",
+	"Version" : 4,
+	"VersionName" : "0.2.3",
+	"CreatedBy" : "Fake Love",
+	"CreatedByURL" : "http://fakelove.tv",
+	"EngineVersion" : "4.14.3",
+	"Description" : "Kinect Integration for Unreal Engine",
+	"Category" : "Input",
+	"EnabledByDefault" : true,
+	
+	"Modules" :
+	[
+		{
+			"Name" : "FLKinectPlugin",
+			"Type" : "Runtime",
+			"WhitelistPlatforms" : [ "Win64", "Win32" ]
+		}
+	]
+}
