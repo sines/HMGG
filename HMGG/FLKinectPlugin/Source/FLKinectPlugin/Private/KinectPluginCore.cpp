@@ -200,6 +200,8 @@ FKinectPluginCore* const FKinectPluginCore::GetInstance()
 
 		for (int32 i = 0; i < nBodyCount; ++i)
 		{
+			TrackFlags[i] = false;
+
 			IBody* pBody = ppBodies[i];
 			if (pBody)
 			{

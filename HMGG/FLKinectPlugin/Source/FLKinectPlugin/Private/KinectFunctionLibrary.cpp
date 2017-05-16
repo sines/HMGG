@@ -81,18 +81,20 @@ void UKinectPluginFunctionLibrary::DrawBody(const AActor* worldActor, FFLKinect_
 		
 	}
 }
+/*
 
 FVector2D UKinectPluginFunctionLibrary::GetHandInScreen()
 {
-/*
+/ *
 	auto PointerPoint = *FKinectPluginCore::GetInstance()->kinectCoreWindow_PointerMoved();
 	PointF pos;
 	
 	PointerPoint.get_Position(&pos);
-*/
+* /
 	return FKinectPluginCore::GetInstance()->kinectCoreWindow_PointerMoved();
 }
 void UKinectPluginFunctionLibrary::Stop()
 {
 	FKinectPluginCore::GetInstance()->Stop();
 }
+*/

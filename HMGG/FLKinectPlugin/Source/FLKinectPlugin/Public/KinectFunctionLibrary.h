@@ -86,14 +86,16 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Kinect")
 		static void GetKinectBody(uint8 number, FFLKinect_Body& out);
 
+/*
 	UFUNCTION(BlueprintPure, Category = "Kinect")
-		static FVector2D GetHandInScreen();
+		static FVector2D GetHandInScreen();*/
 
 	UFUNCTION(BlueprintCallable, Category = "Kinect")
 		static bool IsKinectBodyTracked(uint8 number);
 	
+/*
 	UFUNCTION(BlueprintCallable, Category = "Kinect")
-		static void Stop();
+		static void Stop();*/
 
 	UFUNCTION(BlueprintCallable, Category = "Kinect|Debug")
 		static bool GetFirstActiveKinectBody(FFLKinect_Body& out);
